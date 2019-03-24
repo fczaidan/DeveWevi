@@ -1,9 +1,21 @@
+body {
+  margin: 0;
+}
+
+header {
+  padding: 0 !important;
+}
+
+#menu {
+  padding: 0;
+}
+
 #menu ul {
-    padding: 0px;
+    padding: 10px;
     margin: 0 ;
     background-color:#EDEDED;
     list-style:none;
-    
+
 }
 
 #menu ul li { display: inline; }
@@ -12,7 +24,7 @@
     padding: 2px 30px;
     display: inline-block;
     font-size: 120%;
-    
+
     background-color:#EDEDED;
     color: #333;
     text-decoration: none;
@@ -28,14 +40,14 @@
 body {
     background: #333;
   }
-  
+
   header, nav {
     text-align: center;
     background: white;
     margin: -2px 0;
     padding: 10px;
   }
-  
+
   nav a {
     text-decoration: none;
     background: #333;
@@ -44,3 +56,4 @@ body {
     padding: 3px 8px;
   }
 
+  
