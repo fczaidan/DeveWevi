@@ -1,0 +1,46 @@
+#menu ul {
+    padding: 0px;
+    margin: 0 ;
+    background-color:#EDEDED;
+    list-style:none;
+    
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 30px;
+    display: inline-block;
+    font-size: 120%;
+    
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:rgb(255, 255, 255);
+    color: rgb(243, 9, 9);
+    border-bottom:3px solid #EA0000;
+}
+
+body {
+    background: #333;
+  }
+  
+  header, nav {
+    text-align: center;
+    background: white;
+    margin: -2px 0;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 8px;
+  }
+
